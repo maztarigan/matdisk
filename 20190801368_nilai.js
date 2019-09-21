@@ -19,5 +19,5 @@ if ((a > 50) && (a < 61)) {
 }
 
 if (a < 51) {
-    console.log("E")
+    console.log("E");
 }
