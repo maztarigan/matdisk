@@ -1,22 +1,15 @@
 var baca = require('readline-sync');
-var a = parseInt(baca.question("Nilai : "));
 
-if (a>85) {
+var nilai = parseInt(baca.question("Masukkan Nilai : "));
+
+if (nilai>85){
     console.log("A");
-}
-
-if ((a>70) && (a<86)) {
+}else if ((nilai>70) && (nilai<86)){
     console.log("B");
-}
-
-if ((a>60) && (a<71)) {
+}else if ((nilai>60) && (nilai<71)){
     console.log("C");
-}
-
-if ((a>50) && (a<61)) {
+}else if ((nilai>50) && (nilai<61)){
     console.log("D");
-}
-
-if (a<51) {
+}else{
     console.log("E");
 }
