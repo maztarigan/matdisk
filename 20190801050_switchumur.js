@@ -17,3 +17,5 @@ switch(true){
         console.log("Anda Tingkat SMA Sederajat");
         break;
 }
+
+selain yang tertera tidak akan masuk dalam umur karena data yang digunakan dari umur 3 tahun sampai 18 tahun.
