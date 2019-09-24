@@ -13,5 +13,8 @@ if ((u=>3)&&(u<=4)) {
 } else if ((u>16)&&(u<18)){
     console.log('Anak ini sedang dalam tingkat SMA');
 } else {
-    console.log('Anak ini sudah lulus sekolah atau belom seharusnya bersekolah');
+    console.log('anak anda seharusnya sudah lulus semua tingkat sekolah');
 }
+
+console.log("");
+console.log("NOTE : Jika anda memasukkan umur 1 atau 2. Maka sudah pasti anak anda belom bersekolah")
