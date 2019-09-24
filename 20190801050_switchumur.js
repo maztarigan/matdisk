@@ -23,3 +23,8 @@ switch(true){
         console.log("Jenjang Perkuliahan atau Kerja");
         break;
 }
+
+
+
+
+Diatas angka 30 tidak termasuk kedalam tabel tersebut walaupun masuk hanya berupa angka tidak mengeluarkan output dari console.
