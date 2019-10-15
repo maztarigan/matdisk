@@ -13,7 +13,7 @@ var jalur_b = [];
     jalur_b.push(parseInt(key.question('Jarak B Titik 1 : ')));
     jalur_b.push(parseInt(key.question('Jarak B Titik 2 : ')));
     jalur_b.push(parseInt(key.question('Jarak B Titik 3 : ')));
-    jalur_b.push(parseInt(key.question('Jarak A Titik 4 : ')));
+    jalur_b.push(parseInt(key.question('Jarak B Titik 4 : ')));
 
         var jarak_jalur_a = jalur_a[0]+jalur_a[1]+jalur_a[2]+jalur_a[3];
         var jarak_jalur_b = jalur_b[0]+jalur_b[1]+jalur_b[2]+jalur_b[3];
