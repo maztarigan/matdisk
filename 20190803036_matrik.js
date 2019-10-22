@@ -9,4 +9,6 @@ var hasil_4 = data_a[1][1] + data_b[1][1];
 console.log("Penjumlahan Dari Data Array: ");
 console.log(data_a+" Tambah "+data_b);
 
+console.log("==============================");
 console.log(hasil_1,hasil_2,hasil_3,hasil_4);
+console.log("==============================");
