@@ -1,0 +1,54 @@
+console.log("Bismilah");
+
+console.log("' "); 
+console.log(" ' "); 
+console.log("  ' ");
+console.log("   ' ");
+console.log("    ' ");
+console.log("     ' ");
+console.log("      ' ");
+console.log("       ' ");
+console.log("        ' ");
+console.log("        ' ");
+console.log("       ' ");
+console.log("      ' ");
+console.log("     ' ");
+console.log("    ' ");
+console.log("   ' ");
+console.log("  ' ");
+console.log(" ' ");
+console.log("' ");
+console.log("' ");
+console.log(" ' ");
+console.log("  ' ");
+console.log("   ' ");
+console.log("    ' ");
+console.log("     ' ");
+console.log("      ' ");
+console.log("       ' ");
+console.log("        ' ");
+console.log("       ' ");
+console.log("      ' ");
+console.log("     ' ");
+console.log("    ' ");
+console.log("   ' ");
+console.log("  ' ");
+console.log(" ' ");
+console.log("' ");
+console.log("' ");
+console.log(" ' ");
+console.log("  ' ");
+console.log("   ' ");
+console.log("    ' ");
+console.log("     ' ");
+console.log("      ' ");
+console.log("       ' ");
+
+console.log(" Muhamad Sudirman UwU");
+console.log("\n");
+
+var key = require("readline-sync");
+var desimal = parseInt(key.question("masukan nilai desimal : "));
+var octa =(desimal.toString(8));
+
+console.log(octa);
