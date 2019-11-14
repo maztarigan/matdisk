@@ -15,7 +15,9 @@ var jarak_jalur_B = Jalur_B[0] + Jalur_B[1] + Jalur_B[2]
 if (jarak_jalur_A > jarak_jalur_B) {
     console.log("Jarak Terpanjang = Jalur_A", jarak_jalur_A, "KM");
     console.log("Jarak Terpendek = Jalur_B", jarak_jalur_B, "KM");
-} else {
-    console.log("Jarak Terpanjang = Jalur_B", jarak_jalur_B, "KM");
-    console.log("Jarak Terpendek = Jalur_A", jarak_jalur_A, "KM");
+} else if (jarak_jalur_A < jarak_jalur_B) {
+        console.log("Jarak Terpanjang = Jalur_B", jarak_jalur_B, "KM");
+        console.log("Jarak Terpendek = Jalur_A", jarak_jalur_A, "KM");
+} else{
+    console.log("Jarak Tempuh Kedua Jalur Sama Yaitu", jarak_jalur_A, "KM")
 }
