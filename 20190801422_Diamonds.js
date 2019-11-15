@@ -1,6 +1,6 @@
-var inkey = require("readline-sync");
+var Inkey = require("readline-sync");
 var x = " "
-var y = parseInt(inkey.question('Input Angka : '));
+var y = parseInt(Inkey.question('Input Angka : '));
 var z = '';
 for(var z=y; z>0; z--){
     for(var i=1; i<=z; i++){
