@@ -10,8 +10,8 @@ var biner = (desimal.toString(2));
 var biner_1 = (desimal.toString(8));
 var biner_2 = (desimal.toString(16));
 
-console.log("Hasil Desimal ke Biner Adalah : ["+biner+"]");
-console.log("Hasil Desimal ke Octa Adalah : ["+biner_1+"]" );
+console.log("Hasil Desimal ke Biner Adalah       : ["+biner+"]");
+console.log("Hasil Desimal ke Octa Adalah        : ["+biner_1+"]" );
 console.log("Hasil Desimal ke Hexadesimal Adalah : ["+biner_2+"]");
 
 console.log("===================================");
