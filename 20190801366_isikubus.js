@@ -1,11 +1,7 @@
-var baca = require('readline-sync');
+var keyboard=require('readline-sync');
 
-var p = 13;
-var l = parseInt(baca.question("masukan lebar : "));
-var t = parseInt(baca.question("masukan tinggi : "));
+var s = parseInt(keyboard.question("Masukkan Nilai Sisi ="));
 
-var volume = p * l * t;
+var isi = s * s * s
 
-console.log(volume);
-
-
+console.log("Isi Kubus yang sisinya "+ s + " adalah " + isi);
