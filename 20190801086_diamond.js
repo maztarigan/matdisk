@@ -1,6 +1,6 @@
 var key, n
-key = require('readline-sync')
-n   = parseInt(key.question("Masukkan nilai n = "))
+key = require('readline-sync');
+n   = parseInt(key.question("Masukkan nilai n = "));
 
     var x = '';
     for(var i=n; i>=1; i--){
@@ -23,5 +23,5 @@ n   = parseInt(key.question("Masukkan nilai n = "))
         console.log(x);
         x = "";
     }
-    console.log("=============================================")
-    console.log(" BY : MICKO TUBAGAS")
+    console.log("=============================================");
+    console.log(" BY : MICKO TUBAGAS");
