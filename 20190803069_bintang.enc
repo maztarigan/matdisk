@@ -1,0 +1,12 @@
+var key = require("readline-sync")
+var Output =" " 
+var n = parseInt(key.question('masukkan lebar : '))
+var m = parseInt(key.question('masukkan panjang : '))
+    for(var i= 0; i<n; i++){
+      for(var j = 0; j<m ; j++){
+          Output += "*"
+    }
+    Output +="\n"
+   }
+    console.log(Output)
+    
