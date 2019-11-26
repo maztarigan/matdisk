@@ -11,54 +11,45 @@
     Sudirman    3,18
     Tentukan Jarak Terdekat Dan Waktu Tercepat ? ....
 */
-var isi = "Diketahui Jarak Dan Waktu tempuh Dari Rumah Ke Kampus Masing - Masing Mahasiswa Adalah : ";
+var isi = "Diketahui Jarak Dan Waktu tempuh Dari Rumah Ke Kampus Masing - Masing\nMahasiswa Adalah : ";
 var b = [
-            [4,10],
-            [5,13],
-            [17,30],
-            [12,20],
-            [2,3],
-            [22,40],
-            [12,25],
-            [7,15],
-            [3,18]
+            [4,10,"Kolish"],
+            [5,13,"Ndaru"],
+            [17,30,"Farid"],
+            [12,20,"Diki"],
+            [2,3,"Danu"],
+            [22,40,"Candra"],
+            [12,25,"Raffa"],
+            [7,15,"Sendi"],
+            [3,18,"Sudirman"]
         ];
 console.log("=====================================================================");
 console.log(isi);
-console.log("Kolish : ",b[0]);
-console.log("Ndaru : ",b[1]);
-console.log("Farid : ",b[2]);
-console.log("Diki : ",b[3]);
-console.log("Danu : ",b[4]);
-console.log("Candra : ",b[5]);
-console.log("Raffa : ",b[6]);
-console.log("Sendi : ",b[7]);
-console.log("Sudirman : ",b[8]);
-console.log("\nTentukan Jarak Terdekat Dan Waktu Tercepat ?");
-
+console.log(b[0][2]," : ",b[0][0]," KM",",",b[0][1]," Menit");
+console.log(b[1][2]," : ",b[1][0]," KM",",",b[1][1]," Menit");
+console.log(b[2][2]," : ",b[2][0]," KM",",",b[2][1]," Menit");
+console.log(b[3][2]," : ",b[3][0]," KM",",",b[3][1]," Menit");
+console.log(b[4][2]," : ",b[4][0]," KM",",",b[4][1]," Menit");
+console.log(b[5][2]," : ",b[5][0]," KM",",",b[5][1]," Menit");
+console.log(b[6][2]," : ",b[6][0]," KM",",",b[6][1]," Menit");
+console.log(b[7][2]," : ",b[7][0]," KM",",",b[7][1]," Menit");
+console.log(b[8][2]," : ",b[8][0]," KM",",",b[8][1]," Menit");
+console.log("=====================================================================");
+console.log("Tentukan Jarak Terdekat Dan Waktu Tercepat ?");
+console.log("=====================================================================");
 var min_jar = b[0][0];
 var min_jam = b[0][1];
-var nama    =  b[0];
+var nama_jar  = b[0][2];
+var nama_jam  = b[0][2];
 for(var i = 0; i<b.length; i++){
-    for(var j = 0; j<=1; j++){
-        if(b[i][j] < min_jar){
-            min_jar = b[i][j];
-            nama    = b[i];
-        }
-        else if(b[i][j] < min_jam){
-            min_jam = b[i][j];
-            nama    = b[i];
-        }
+    if(b[i][0] < min_jar){
+        min_jar   = b[i][0];
+        nama_jar  = b[i][2];
+    }
+    if(b[i][1] < min_jam){
+        min_jam = b[i][1];
+        nama_jam  = b[i][2];
     }
 }
-b[0][0] = "kholis";     b[0][1] = "kholis";
-b[1][0] = "Ndaru";      b[1][1] = "Ndaru";
-b[2][0] = "Farid";      b[2][1] = "Farid";
-b[3][0] = "Diki";       b[3][1] = "Diki";
-b[4][0] = "Danu";       b[4][1] = "Danu";
-b[5][0] = "Candra";     b[5][1] = "Candra";
-b[6][0] = "Raffa";      b[6][1] = "Raffa";
-b[7][0] = "Sendi";      b[7][1] = "Sendi";
-b[8][0] = "Sudirman";   b[8][1] = "Sudirman";
-console.log("Jarak Tercepat Di Tempuh Oleh : ",nama,"Dengan Jarak Tempuh : "+min_jar);
-console.log("Waktu Tempuh Tercepat Di Tempuh Oleh : ",nama,"Dengan Waktu Tempuh : "+min_jam);
+console.log("Jarak Tercepat Di Tempuh Oleh : (",nama_jar,"),Dengan Jarak Tempuh : "+min_jar+" KM");
+console.log("Waktu Tempuh Tercepat Di Tempuh Oleh : (",nama_jam,"),Dengan Waktu Tempuh : "+min_jam+" Menit");
