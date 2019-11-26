@@ -13,4 +13,4 @@ var minmimal = Math.min.apply(Math,waktu);
 var nama_min = nama[waktu.indexOf(minmimal)];
 
 console.log("jarak paling jauh di tempuh oleh : " +nama_max+" dengan jarak "+maximal+" KM")
-console.log("jarak paling dekat di tempuh oleh : " +nama_min+" "+minmimal+ " menit ")
+console.log("jarak paling dekat di tempuh oleh : " +nama_min+" dengan waktu "+minmimal+ " menit ")
