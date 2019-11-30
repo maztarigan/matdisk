@@ -35,7 +35,7 @@ var Nama12 = Absenharian[12][1]  - Absenharian[12][0];
 var Nama13 = Absenharian[13][1]  - Absenharian[13][0];
 var Nama14 = Absenharian[14][1]  - Absenharian[14][0];
 
-console.log("Lama waktu aktifitas")
+console.log("Lama waktu kerja")
 console.log("Dimas  : "+Nama +" Jam");
 console.log("Raihan : "+Nama1+" Jam");
 console.log("Ilham  : "+Nama2+" Jam");
