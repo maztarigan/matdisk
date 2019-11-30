@@ -1,8 +1,8 @@
-console.log(" JAM KERJA ")
-console.log("ANDROW RAGILSON ")
-console.log("20190801354")
-
-var Absensi =
+console.log(" Program Jam Kerja ")
+console.log("Nama   : Androw Ragilson ")
+console.log("NIM    : 20190801354")
+console.log("============================")
+var absen =
      [[16.1,20.9],
      [20.6,22],
      [23,24],
@@ -19,24 +19,25 @@ var Absensi =
      [00,1.5],
      [5.16,24]];
 
-var Data   = Absensi[0][1]   - Absensi[0][0];
-var Data1  = Absensi[1][1]   - Absensi[1][0];
-var Data2  = Absensi[2][1]   - Absensi[2][0];
-var Data3  = Absensi[3][1]   - Absensi[3][0];
-var Data4  = Absensi[4][1]   - Absensi[4][0];
-var Data5  = Absensi[5][1]   - Absensi[5][0];
-var Data6  = Absensi[6][1]   - Absensi[6][0];
-var Data7  = Absensi[7][1]   - Absensi[7][0];
-var Data8  = Absensi[8][1]   - Absensi[8][0];
-var Data9  = Absensi[9][1]   - Absensi[9][0];
-var Data10 = Absensi[10][1]  - Absensi[10][0];
-var Data11 = Absensi[11][1]  - Absensi[11][0];
-var Data12 = Absensi[12][1]  - Absensi[12][0];
-var Data13 = Absensi[13][1]  - Absensi[13][0];
-var Data14 = Absensi[14][1]  - Absensi[14][0];
+     var Data   = absen [0][1]   - absen [0][0];
+     var Data1  = absen [1][1]   - absen [1][0];
+     var Data2  = absen [2][1]   - absen [2][0];
+     var Data3  = absen [3][1]   - absen [3][0];
+     var Data4  = absen [4][1]   - absen [4][0];
+     var Data5  = absen [5][1]   - absen [5][0];
+     var Data6  = absen [6][1]   - absen [6][0];
+     var Data7  = absen [7][1]   - absen [7][0];
+     var Data8  = absen [8][1]   - absen [8][0];
+     var Data9  = absen [9][1]   - absen [9][0];
+     var Data10 = absen [10][1]  - absen [10][0];
+     var Data11 = absen [11][1]  - absen [11][0];
+     var Data12 = absen [12][1]  - absen [12][0];
+     var Data13 = absen [13][1]  - absen [13][0];
+     var Data14 = absen [14][1]  - absen [14][0];
+     
+console.log("    LAMA WAKTU KERJA");
+console.log("============================")
 
-console.log("LAMA WAKTU KERJA");
-console.log("================================")
 console.log("DIMAS  : "+Data +" ");
 console.log("RAIHAN : "+Data1+" ");
 console.log("ILHAM  : "+Data2+" ");
