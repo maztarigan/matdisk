@@ -1,4 +1,4 @@
-console.log("SELAMAT NamaNG")
+console.log("SELAMAT DATANG")
 console.log("Sindy Ayu lestari")
 console.log("20190801358")
 console.log("Matematika Diskrit")
