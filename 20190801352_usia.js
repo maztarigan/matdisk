@@ -23,4 +23,4 @@ var siswa =
         var diffDays = parseInt((hari_ini.getYear() - lahiran.getYear()));
         console.log(siswa[i].Name + " saat ini berusia " + diffDays + " tahun");                                       
      }
-console.log(hari_ini);
+console.log(hari_ini); 
